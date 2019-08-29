@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Isim:</strong>
+  <%= @film.isim %>
+</p>
+
+<p>
+  <strong>Yapımcı:</strong>
+  <%= @film.yapımcı %>
+</p>
+
+<p>
+  <strong>Puan:</strong>
+  <%= @film.puan %>
+</p>
+
+<p>
+  <strong>Yorum:</strong>
+  <%= @film.yorum %>
+</p>
+
+<%= link_to 'Edit', edit_film_path(@film) %> |
+<%= link_to 'Back', films_path %>
